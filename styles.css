@@ -1,0 +1,44 @@
+:root {
+    --contenedor-altura-ancho: 300px;
+}
+
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor{
+    display: block;
+    justify-content: center;
+    height: var(--contenedor-altura-ancho);
+    width: var(--contenedor-altura-ancho);
+    background: white;
+}
+
+#contenedor #mostrador-color{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    border: 3px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: black;
+}
+
+#contenedor #codigo-color{
+    font-size: 2em;
+    width: 150px;
+    margin: 10px 25%;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+#contenedor #generar-color {
+   margin: auto; 
+}
